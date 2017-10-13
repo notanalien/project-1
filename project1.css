@@ -1,0 +1,64 @@
+html, body {
+  max-width:100%;
+  overflow-x: hidden;
+}
+* {
+  font-family:Comic Sans MS;
+}
+#bar {
+  font-size:150%;
+  color:gray;
+  margin:auto;
+  border-style:solid;
+  border-width:1px;
+  border-color:gray;
+  padding-right: 500px
+  ;
+}
+p {
+  display: inline;
+}
+#goggle {
+  position: relative;
+  left:500px;
+}
+#search {
+  position: relative;
+  left:425px;
+}
+#button {
+  font-size:300%;
+  border: 10px solid;
+  padding: 100px 50px;
+  background-color:red;
+  display: inline-block;
+  position: relative;
+  left:425px;
+  transition-duration:0.4s;
+  box-shadow: 0 20px #999;
+}
+#button:hover {
+  background-color:black;
+  color:red;
+}
+#button:active {
+  transform:translateY(4px);
+  box-shadow: 0 10px #666;
+}
+#doritos{
+  position:fixed;
+  top:0;
+  left:0;
+}
+#dew{
+  position:fixed;
+  bottom:0;
+  right:0;
+}
+#face{
+  position:relative;
+  left:450px;
+}
+a {
+  color:#FFFFFF
+}
